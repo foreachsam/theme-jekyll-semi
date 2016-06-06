@@ -5,7 +5,7 @@
 			<div class="ui stackable inverted grid">
 				<div class="seven wide centered floated column">
 					<h4 class="ui inverted teal header">{{ site.title | escape }}</h4>
-					<p>{{ site.description | escape }}</p>
+					<p>{{ site.description | strip_html | strip_newlines | truncate: 160 | escape }}</p>
 				</div>
 			</div>
 			<div class="ui inverted section divider"></div>
