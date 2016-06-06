@@ -1,0 +1,63 @@
+#### Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+#### Site settings
+title: 'Jekyll Theme Semi'
+email: foreachsam@users.noreply.github.com
+description: > # this means to ignore newlines until "baseurl:"
+  Jekyll Theme With Semantic-UI
+baseurl: '/theme-jekyll-semi' # the subpath of your site, e.g. /blog
+url: "http://foreachsam.github.io" # the base hostname & protocol for your site
+twitter_username: foreachsam
+github_username:  foreachsam
+
+
+#### Build settings
+markdown: kramdown
+
+
+#### Repository
+repo:
+    url: https://github.com/foreachsam/theme-jekyll-semi
+
+
+#### Plugin
+gems:
+  - 'jekyll-paginate'
+
+
+#### Blog Paginate
+paginate: 20
+#paginate_path: '/read/blog/page:num'
+#paginate_subpath: '/read/blog'
+
+
+#### Google Analytics
+google_analytics: 'UA-56999876-1'
+
+
+#### Permalink
+permalink: '/read/article/:slug'
+
+
+#### Menu
+menu:
+  - title: 'Jekyll'
+    url: 'https://jekyllrb.com/'
+    icon: 'book'
+  - title: 'Jekyll GitHub'
+    url: 'https://github.com/jekyll/jekyll'
+    icon: 'github'
+  - title: 'Semantic UI'
+    url: 'https://semantic-ui.com/'
+    icon: 'book'
+  - title: 'Semantic UI Docs'
+    url: 'http://semantic-ui.com/introduction/getting-started.html'
+    icon: 'book'
+  - title: 'Semantic UI GitHub'
+    url: 'https://github.com/Semantic-Org/Semantic-UI'
+    icon: 'github'
